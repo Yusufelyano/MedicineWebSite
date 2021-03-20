@@ -7,3 +7,83 @@ body{
 img{
 	width: 100%;
 }
+header{
+	display: flex;
+}
+.header_fist_part{
+	width: 50%;
+	position: relative;
+	background-color: #E95258;
+	background-image: url(img/PressureMeter.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	color: #F9F9F9;
+}
+.logo{
+	width: 205px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 115px;
+	padding-top: 20px;
+}
+.logo img{
+	width: 70px;
+	height: 45px;
+}
+.header_fist_part .desc{
+	width: 430px;
+	padding-top: 135px;
+	margin-left: 170px;
+	max-width: 100%;
+}
+.header_fist_part h2{
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 36px;
+	text-align: right;
+}
+.header_fist_part p{
+	width: 220px;
+	margin-left: auto;
+	font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.header_fist_part .list{
+	width: 125px;
+	font-weight: 600;
+    font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: auto;
+	padding-bottom: 10px;
+}
+.header_fist_part .list img{
+	width: 7px;
+	height: 7px;
+}
+.header_fist_part .button
+{
+	width: 160px;
+    height: 50px;
+	font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin: 80px 0 100px auto;
+}
+.header_second_part{
+
+}
